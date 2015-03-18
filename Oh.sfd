@@ -5,7 +5,7 @@ FamilyName: Oh
 Weight: Regular
 Copyright: Copyright (c) 2015, Nate Rauh,\nwith Reserved Font Name Oh.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\n\nThis license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL\n\nSIL OPEN FONT LICENSE\n\nVersion 1.1 - 26 February 2007\n\nPREAMBLE\nThe goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of collaborative font projects, to support the font creation\nefforts of academic and linguistic communities, and to provide a free and\nopen framework in which fonts may be shared and improved in partnership\nwith others.\n\nThe OFL allows the licensed fonts to be used, studied, modified and\nredistributed freely as long as they are not sold by themselves. The\nfonts, including any derivative works, can be bundled, embedded, \nredistributed and/or sold with any software provided that any reserved\nnames are not used by derivative works. The fonts and derivatives,\nhowever, cannot be released under any other type of license. The\nrequirement for fonts to remain under this license does not apply\nto any document created using the fonts or their derivatives.\n\nDEFINITIONS\n"Font Software" refers to the set of files released by the Copyright\nHolder(s) under this license and clearly marked as such. This may\ninclude source files, build scripts and documentation.\n\n"Reserved Font Name" refers to any names specified as such after the\ncopyright statement(s).\n\n"Original Version" refers to the collection of Font Software components as\ndistributed by the Copyright Holder(s).\n\n"Modified Version" refers to any derivative made by adding to, deleting,\nor substituting -- in part or in whole -- any of the components of the\nOriginal Version, by changing formats or by porting the Font Software to a\nnew environment.\n\n"Author" refers to any designer, engineer, programmer, technical\nwriter or other person who contributed to the Font Software.\n\nPERMISSION & CONDITIONS\nPermission is hereby granted, free of charge, to any person obtaining\na copy of the Font Software, to use, study, copy, merge, embed, modify,\nredistribute, and sell modified and unmodified copies of the Font\nSoftware, subject to the following conditions:\n\n1) Neither the Font Software nor any of its individual components,\nin Original or Modified Versions, may be sold by itself.\n\n2) Original or Modified Versions of the Font Software may be bundled,\nredistributed and/or sold with any software, provided that each copy\ncontains the above copyright notice and this license. These can be\nincluded either as stand-alone text files, human-readable headers or\nin the appropriate machine-readable metadata fields within text or\nbinary files as long as those fields can be easily viewed by the user.\n\n3) No Modified Version of the Font Software may use the Reserved Font\nName(s) unless explicit written permission is granted by the corresponding\nCopyright Holder. This restriction only applies to the primary font name as\npresented to the users.\n\n4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font\nSoftware shall not be used to promote, endorse or advertise any\nModified Version, except to acknowledge the contribution(s) of the\nCopyright Holder(s) and the Author(s) or with their explicit written\npermission.\n\n5) The Font Software, modified or unmodified, in part or in whole,\nmust be distributed entirely under this license, and must not be\ndistributed under any other license. The requirement for fonts to\nremain under this license does not apply to any document created\nusing the Font Software.\n\nTERMINATION\nThis license becomes null and void if any of the above conditions are\nnot met.\n\nDISCLAIMER\nTHE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nOF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE\nCOPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nINCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.
 UComments: "2015-3-17: Created with FontForge (http://fontforge.org)"
-Version: 0.1
+Version: 0.2
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1426648335
-ModificationTime: 1426668067
+ModificationTime: 1426669106
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -52,12 +52,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 16 4
+WinInfo: 32 16 6
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "" "" 
-BeginChars: 256 52
+BeginChars: 256 53
 
 StartChar: a
 Encoding: 97 97 0
@@ -74,6 +73,7 @@ SplineSet
  752.201171875 314.88671875 755.536132812 342.344726562 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Y
@@ -85,17 +85,18 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-243.484375 359.510742188 m 0
- 243.484375 500.9140625 358.111328125 615.544921875 499.509765625 615.544921875 c 0
- 640.909179688 615.544921875 755.536132812 500.9140625 755.536132812 359.510742188 c 0
- 755.536132812 218.106445312 640.909179688 103.475585938 499.509765625 103.475585938 c 0
- 358.111328125 103.475585938 243.484375 218.106445312 243.484375 359.510742188 c 0
-71.7314453125 359.510742188 m 0
- 71.7314453125 123.24609375 263.25390625 -68.283203125 499.509765625 -68.283203125 c 0
- 735.766601562 -68.283203125 927.2890625 123.24609375 927.2890625 359.510742188 c 0
- 927.2890625 595.774414062 735.766601562 787.3046875 499.509765625 787.3046875 c 0
- 263.25390625 787.3046875 71.7314453125 595.774414062 71.7314453125 359.510742188 c 0
+243.484375 359.510742188 m 4
+ 243.484375 500.9140625 358.111328125 615.544921875 499.509765625 615.544921875 c 4
+ 640.909179688 615.544921875 755.536132812 500.9140625 755.536132812 359.510742188 c 4
+ 755.536132812 218.106445312 640.909179688 103.475585938 499.509765625 103.475585938 c 4
+ 358.111328125 103.475585938 243.484375 218.106445312 243.484375 359.510742188 c 4
+71.7314453125 359.510742188 m 4
+ 71.7314453125 123.24609375 263.25390625 -68.283203125 499.509765625 -68.283203125 c 4
+ 735.766601562 -68.283203125 927.2890625 123.24609375 927.2890625 359.510742188 c 4
+ 927.2890625 595.774414062 735.766601562 787.3046875 499.509765625 787.3046875 c 4
+ 263.25390625 787.3046875 71.7314453125 595.774414062 71.7314453125 359.510742188 c 4
 EndSplineSet
+Validated: 524297
 EndChar
 
 StartChar: y
@@ -121,6 +122,7 @@ SplineSet
  698.185546875 178.575195312 755.536132812 277.912109375 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: z
@@ -146,6 +148,7 @@ SplineSet
  694.138671875 172.505859375 755.536132812 274.071289062 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: X
@@ -175,6 +178,7 @@ SplineSet
  644.30078125 107.734375 755.536132812 222.385742188 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: W
@@ -204,6 +208,7 @@ SplineSet
  647.76171875 111.975585938 755.536132812 226.469726562 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: V
@@ -233,6 +238,7 @@ SplineSet
  651.216796875 116.20703125 755.536132812 230.439453125 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: U
@@ -262,6 +268,7 @@ SplineSet
  654.662109375 120.434570312 755.536132812 234.301757812 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: T
@@ -291,6 +298,7 @@ SplineSet
  658.094726562 124.6640625 755.536132812 238.061523438 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: j
@@ -308,6 +316,7 @@ SplineSet
  668.279296875 137.40625 755.536132812 248.778320312 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: S
@@ -337,6 +346,7 @@ SplineSet
  658.094726562 124.6640625 755.536132812 238.061523438 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: R
@@ -366,6 +376,7 @@ SplineSet
  664.909179688 133.149414062 755.536132812 245.297851562 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Q
@@ -395,6 +406,7 @@ SplineSet
  668.28515625 137.4140625 755.536132812 248.784179688 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: P
@@ -424,6 +436,7 @@ SplineSet
  671.63671875 141.698242188 755.536132812 252.189453125 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: O
@@ -453,6 +466,7 @@ SplineSet
  674.959960938 146.006835938 755.536132812 255.516601562 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: N
@@ -482,6 +496,7 @@ SplineSet
  678.250976562 150.341796875 755.536132812 258.771484375 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: M
@@ -511,6 +526,7 @@ SplineSet
  681.508789062 154.706054688 755.536132812 261.956054688 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 0
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: L
@@ -540,6 +556,7 @@ SplineSet
  684.729492188 159.103515625 755.536132812 265.075195312 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: K
@@ -565,6 +582,7 @@ SplineSet
  645.454101562 109.1484375 755.536132812 223.758789062 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: J
@@ -590,6 +608,7 @@ SplineSet
  650.065429688 114.795898438 755.536132812 229.127929688 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: I
@@ -615,6 +634,7 @@ SplineSet
  654.661132812 120.43359375 755.536132812 234.30078125 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: H
@@ -640,6 +660,7 @@ SplineSet
  659.234375 126.07421875 755.536132812 239.29296875 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: G
@@ -665,6 +686,7 @@ SplineSet
  663.778320312 131.73046875 755.536132812 244.116210938 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: F
@@ -690,6 +712,7 @@ SplineSet
  668.28515625 137.413085938 755.536132812 248.783203125 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: E
@@ -715,6 +738,7 @@ SplineSet
  672.747070312 143.130859375 755.536132812 253.305664062 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: D
@@ -740,6 +764,7 @@ SplineSet
  677.157226562 148.892578125 755.536132812 257.693359375 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: C
@@ -765,6 +790,7 @@ SplineSet
  681.508789062 154.705078125 755.536132812 261.955078125 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: B
@@ -790,6 +816,7 @@ SplineSet
  685.793945312 160.575195312 755.536132812 266.100585938 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: A
@@ -815,6 +842,7 @@ SplineSet
  690.005859375 166.5078125 755.536132812 270.13671875 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: x
@@ -836,6 +864,7 @@ SplineSet
  647.759765625 111.97265625 755.536132812 226.467773438 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: w
@@ -857,6 +886,7 @@ SplineSet
  654.66015625 120.431640625 755.536132812 234.299804688 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: v
@@ -878,6 +908,7 @@ SplineSet
  661.509765625 128.8984375 755.536132812 241.723632812 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: u
@@ -899,6 +930,7 @@ SplineSet
  668.283203125 137.411132812 755.536132812 248.782226562 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: t
@@ -920,6 +952,7 @@ SplineSet
  668.283203125 137.411132812 755.536132812 248.782226562 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: s
@@ -941,6 +974,7 @@ SplineSet
  681.506835938 154.704101562 755.536132812 261.954101562 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: r
@@ -962,6 +996,7 @@ SplineSet
  687.908203125 163.53125 755.536132812 268.130859375 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: q
@@ -983,6 +1018,7 @@ SplineSet
  694.137695312 172.50390625 755.536132812 274.0703125 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: p
@@ -1004,6 +1040,7 @@ SplineSet
  700.172851562 181.634765625 755.536132812 279.796875 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: o
@@ -1025,6 +1062,7 @@ SplineSet
  705.991210938 190.931640625 755.536132812 285.33203125 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: n
@@ -1046,6 +1084,7 @@ SplineSet
  711.571289062 200.399414062 755.536132812 290.693359375 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: m
@@ -1067,6 +1106,7 @@ SplineSet
  716.89453125 210.041015625 755.536132812 295.900390625 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: l
@@ -1088,6 +1128,7 @@ SplineSet
  721.939453125 219.857421875 755.536132812 300.966796875 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: k
@@ -1105,6 +1146,7 @@ SplineSet
  654.65625 120.426757812 755.536132812 234.294921875 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: i
@@ -1122,6 +1164,7 @@ SplineSet
  681.50390625 154.698242188 755.536132812 261.950195312 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: h
@@ -1139,6 +1182,7 @@ SplineSet
  694.133789062 172.499023438 755.536132812 274.067382812 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: g
@@ -1156,6 +1200,7 @@ SplineSet
  705.987304688 190.92578125 755.536132812 285.329101562 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: f
@@ -1174,6 +1219,7 @@ SplineSet
  755.536132812 359.510742188 755.536132812 359.510742188 755.536132812 359.510742188 c 0
  927.2890625 359.510742188 l 0
 EndSplineSet
+Validated: 524293
 EndChar
 
 StartChar: e
@@ -1191,6 +1237,7 @@ SplineSet
  726.685546875 229.837890625 755.536132812 305.905273438 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: d
@@ -1208,6 +1255,7 @@ SplineSet
  735.228515625 250.299804688 755.536132812 315.46484375 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: c
@@ -1226,6 +1274,7 @@ SplineSet
  755.536132812 359.510742188 755.536132812 359.510742188 755.536132812 359.510742188 c 0
  927.2890625 359.510742188 l 0
 EndSplineSet
+Validated: 524293
 EndChar
 
 StartChar: b
@@ -1244,13 +1293,14 @@ SplineSet
  755.536132812 359.510742188 755.536132812 359.510742188 755.536132812 359.510742188 c 0
  927.2890625 359.510742188 l 0
 EndSplineSet
+Validated: 524293
 EndChar
 
 StartChar: period
 Encoding: 46 46 51
 Width: 1000
 VWidth: 0
-Flags: HO
+Flags: H
 LayerCount: 2
 Back
 Fore
@@ -1261,6 +1311,40 @@ SplineSet
  754.69921875 337.123046875 755.536132812 350.95703125 755.536132812 359.510742188 c 4
  927.2890625 359.510742188 l 4
 EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: Z
+Encoding: 90 90 52
+Width: 1000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+220.442382812 359.510742188 m 0
+ 220.442382812 205.379882812 345.385742188 80.4326171875 499.509765625 80.4326171875 c 0
+ 653.634765625 80.4326171875 778.578125 205.379882812 778.578125 359.510742188 c 0
+ 778.578125 513.640625 653.634765625 638.587890625 499.509765625 638.587890625 c 0
+ 345.385742188 638.587890625 220.442382812 513.640625 220.442382812 359.510742188 c 0
+97.3984375 359.510742188 m 0
+ 97.3984375 581.598632812 277.4296875 761.63671875 499.509765625 761.63671875 c 0
+ 721.590820312 761.63671875 901.622070312 581.598632812 901.622070312 359.510742188 c 0
+ 901.622070312 137.421875 721.590820312 -42.615234375 499.509765625 -42.615234375 c 0
+ 277.4296875 -42.615234375 97.3984375 137.421875 97.3984375 359.510742188 c 0
+243.484375 359.510742188 m 0
+ 243.484375 500.9140625 358.111328125 615.544921875 499.509765625 615.544921875 c 0
+ 640.909179688 615.544921875 755.536132812 500.9140625 755.536132812 359.510742188 c 0
+ 755.536132812 218.106445312 640.909179688 103.475585938 499.509765625 103.475585938 c 0
+ 358.111328125 103.475585938 243.484375 218.106445312 243.484375 359.510742188 c 0
+71.7314453125 359.510742188 m 0
+ 71.7314453125 123.24609375 263.25390625 -68.283203125 499.509765625 -68.283203125 c 0
+ 735.766601562 -68.283203125 927.2890625 123.24609375 927.2890625 359.510742188 c 0
+ 927.2890625 595.774414062 735.766601562 787.3046875 499.509765625 787.3046875 c 0
+ 263.25390625 787.3046875 71.7314453125 595.774414062 71.7314453125 359.510742188 c 0
+EndSplineSet
+Validated: 524297
 EndChar
 EndChars
 EndSplineFont
