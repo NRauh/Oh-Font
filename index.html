@@ -1,1 +1,99 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Oh Font</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<style>
+	h3 {
+		margin-top: 30px;
+	}
+	</style>
+</head>
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="col-md-6">
+				<h1>Oh Font</h1>
+				<p class="lead">Oh is an icon font of arcs of various lengths and styles.</p>
+				<a href="#" class="btn btn-primary btn-lg">Download <small>v0.3</small></a>
+				<a href="#">View On GitHub</a>
+			</div>
+
+			<div class="col-md-6">
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="col-md-12">
+			<p class="lead">Oh was created to be a free and open source font that can show progress radially, when round graphics are unavailable.
+			Of course, you can use it however you want</p>
+		</div>
+
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1>Using</h1>
+			</div>
+			<p>Oh is released under the <a href="#">SIL Open Font License</a>, so when you download it, you can use it, copy it, share it, or modify it, as long as the license stays the same.</p>
+			<p>Oh isn't really suitable for something where you don't have much control over the font choice.
+			If you can only have one font that can't change dynamically, it's not very usable.
+			Meaning a terminal program isn't wouldn't be a good choice unless you want all of your I/O to be of circles.</p>
+			<p>I also don't imagine screen readers would be very compatible either.</p>
+
+			<h3>Animation style</h3>
+			<p>The best way to use an animation with the glyphs is to map the value of what you're showing to the amount of characters in an animation set, then select the character in an array.<p>
+			<p>Meaning if you're trying to show a value of something between 1-100 with the hollow circle, you would first map your 1-100 value to 0-50 then select use your new value to select the letter in an array</p>
+
+			<em>JavaScript example</em>
+			<pre>
+// There are probably other ways to get new values, but this formula works
+// This is inclusive
+function map(value, oldStart, oldStop, newStart, newStop) {
+	return newStart + (newStop - newStart) * ((value - oldStart) / (oldStop - oldStart))
+}
+
+var currentVal = 63;    // Obviously your value can come from anywhere
+var newVal = Math.round(map(currentVal, 1, 100, 0, 50));
+var position = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y"];
+
+console.log(position[newVal]);
+// If the value changes, you may want to use the return character
+			</pre>
+			<em>Example output</em>
+			<samp>F</samp>
+		</div>
+
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1>Contributing</h1>
+			</div>
+			<p>If you want to design a style to add, feel free to do so and submit a pull request on the GitHub repo.
+			If you don't want to implement a style yourself (and have a GitHub account), you can open an issue on the GitHub repo, and it may get added.
+			[Creating the svg/eps/etc. will increase the likelyhood of me getting around to it.]</p>
+
+			<p>There are a couple things to keep in mind when designing new characters</p>
+
+			<h3>Be consistant</h3>
+			<p>The idea is to show progress.
+			So as your design grows/moves/rotates each step needs to be the same amount of change as the last.
+			Exception possibly being if it was supposed to speed up or slow down.
+			Basically, your change should be smooth.</p>
+
+			<h3>Design with others in mind</h3>
+			<p>Just make sure it's usable to anyone who may like how it looks.</p>
+
+			<h3>Start at the end and don't work out of order</h3>
+			<p>When you start putting your characters in, start at the first empty slot after existing characters.
+			They'll be moved later if it causes a merge conflict.
+			I want to do this, so there aren't gaps between designs (invalid characters are ok to skip).
+			Be sure to also keep your characters in sequence (ABCD not ACDB).</p>
+
+			<p>For both new designs and fixes, work on a new branch, and add a detailed commit body for your commits</p>
+		</div>
+	</div>
+</body>
+</html>
